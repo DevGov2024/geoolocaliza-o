@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa com HERE API</title>
+
+    <!-- Importando a biblioteca HERE Maps -->
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"
+            type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+
+    <script src="code2.js" type="text/javascript"></script> <!-- Importando o arquivo JavaScript -->
+</head>
+<body>
+    <h1>Mapa com HERE API</h1>
+    <!-- Div para o mapa -->
+
+    <h2>Latitudes e Longitudes Coletadas</h2>
+    <!-- Tabela para mostrar as latitudes e longitudes -->
+    <table id="coordinates-table" border="1">
+        <thead>
+            <tr>
+                <th>Endereço</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- As coordenadas serão adicionadas aqui -->
+        </tbody>
+    </table>
+</body>
+</html>
